@@ -1,3 +1,4 @@
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -11,8 +12,10 @@ th, td {
 }
 
 th {
-  background-color: #b3a9a9;  
+  background-color: #8b008b;  
   font-weight: bold;
+  color: white;
+  text-align: center;
 }
 
 
@@ -24,3 +27,21 @@ th {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
+.inputid {
+  display: flex; 
+  justify-content: center; 
+  margin-bottom: 20px;
+  margin: auto;
+  width: 400px;
+  text-align: center ;
+}
+
+.inputid input {
+  padding: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  width: 60%; 
+  margin-right: 10px; 
+}
+
